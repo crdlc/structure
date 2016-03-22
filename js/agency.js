@@ -24,3 +24,12 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(document).ready(function() {
+   $("#my-carousel").swiperight(function() {
+      $("#my-carousel").carousel('prev');
+    });
+   $("#my-carousel").swipeleft(function() {
+      $("#my-carousel").carousel('next');
+   });
+});
