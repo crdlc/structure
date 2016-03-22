@@ -26,10 +26,10 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(document).ready(function() {
-   $("#my-carousel").swiperight(function() {
-      $("#my-carousel").carousel('prev');
+   $('#my-carousel').swiperight(function() {
+      $('#my-carousel').carousel('prev');
     });
    $("#my-carousel").swipeleft(function() {
-      $("#my-carousel").carousel('next');
+      $('#my-carousel').carousel('next');
    });
 });

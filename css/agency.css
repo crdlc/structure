@@ -17,3 +17,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
 a {
   font-size: 18px;
 }
+
+.ui-loader {
+  display: none !important;
+}
